@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766bde2c-b626-4bf4-a29d-95904386dda0" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/itxushen/springcloud/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/itxushen/springcloud/ConfigCenterMain3344.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,70 +40,70 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP 请求.generated-requests | #1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.cloud-api-commons [clean].executor": "Run",
-    "Maven.cloud-api-commons [install].executor": "Run",
-    "Maven.cloud-consumer-feign-order80 [clean].executor": "Run",
-    "Maven.cloud-consumer-feign-order80 [install].executor": "Run",
-    "Maven.cloud-consumer-order80 [clean].executor": "Run",
-    "Maven.cloud-consumer-order80 [install].executor": "Run",
-    "Maven.cloud-consumer-order80 [verify].executor": "Run",
-    "Maven.cloud-eureka-server7002 [clean].executor": "Run",
-    "Maven.cloud-eureka-server7002 [install].executor": "Run",
-    "Maven.cloud-eurkea-server7001 [clean].executor": "Run",
-    "Maven.cloud-eurkea-server7001 [install].executor": "Run",
-    "Maven.cloud-gateway-gateway9527 [clean].executor": "Run",
-    "Maven.cloud-gateway-gateway9527 [install].executor": "Run",
-    "Maven.cloud-provider-payment8001 [clean].executor": "Run",
-    "Maven.cloud-provider-payment8001 [install].executor": "Run",
-    "Maven.cloud-provider-payment8001 [validate].executor": "Run",
-    "Maven.cloud-provider-payment8004 [clean].executor": "Run",
-    "Maven.cloud-provider-payment8004 [install].executor": "Run",
-    "Maven.cloud2020 [clean].executor": "Run",
-    "Maven.cloud2020 [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CloudPayment8006.executor": "Run",
-    "Spring Boot.EurekaMain7001.executor": "Run",
-    "Spring Boot.EurekaMain7002.executor": "Run",
-    "Spring Boot.GateWayMain9527.executor": "Run",
-    "Spring Boot.HystrixDashboardMain9001.executor": "Run",
-    "Spring Boot.OrderConsulMain80.executor": "Run",
-    "Spring Boot.OrderFeignMain80.executor": "Run",
-    "Spring Boot.OrderHystrixMain80.executor": "Run",
-    "Spring Boot.OrderMain80.executor": "Run",
-    "Spring Boot.OrderZKMain80.executor": "Run",
-    "Spring Boot.PaymentHystrixMain8001.executor": "Run",
-    "Spring Boot.PaymentMain8001.executor": "Run",
-    "Spring Boot.PaymentMain8002.executor": "Run",
-    "Spring Boot.PaymentMain8004.executor": "Run",
-    "Spring Boot.未命名.executor": "JRebel Executor",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Desktop/Note/Java/SpringCloud/cloud2020/cloud-consumerconsul-order80/src/main/java/com/itxushen/springcloud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "profiler.jvm",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Run",
-    "应用程序.OrderMain80.executor": "JRebel Executor",
-    "应用程序.PaymentMain8004.executor": "Run",
-    "应用程序.T2.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-api-commons [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-api-commons [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-consumer-feign-order80 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-consumer-feign-order80 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-consumer-order80 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-consumer-order80 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-consumer-order80 [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-eureka-server7002 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-eureka-server7002 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-eurkea-server7001 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-eurkea-server7001 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-gateway-gateway9527 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-gateway-gateway9527 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8001 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8001 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8001 [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8004 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-provider-payment8004 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud2020 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud2020 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CloudPayment8006.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaMain7001.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaMain7002.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GateWayMain9527.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HystrixDashboardMain9001.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderConsulMain80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderFeignMain80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderHystrixMain80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderMain80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderZKMain80.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentHystrixMain8001.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentMain8001.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentMain8002.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentMain8004.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.未命名.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Note/Java/SpringCloud/cloud2020/cloud-consumerconsul-order80/src/main/java/com/itxushen/springcloud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;profiler.jvm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.OrderMain80.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;应用程序.PaymentMain8004.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.T2.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -210,11 +210,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="应用程序.T2" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,8 @@
       <workItem from="1724206589065" duration="8226000" />
       <workItem from="1724224843531" duration="15961000" />
       <workItem from="1724381203396" duration="5250000" />
-      <workItem from="1724397922702" duration="14687000" />
+      <workItem from="1724397922702" duration="14964000" />
+      <workItem from="1724469260081" duration="179000" />
     </task>
     <servers />
   </component>

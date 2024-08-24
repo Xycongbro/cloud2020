@@ -8,4 +8,10 @@ spring:
       server:
         git:
           uri: git@github.com:Xycongbro/cloud2020.git
-          
+          search-paths:
+            - springcloud-config
+          default-label: main
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/

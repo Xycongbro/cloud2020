@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766bde2c-b626-4bf4-a29d-95904386dda0" name="更改" comment="" />
+    <list default="true" id="766bde2c-b626-4bf4-a29d-95904386dda0" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -247,7 +253,7 @@
       <workItem from="1724206589065" duration="8226000" />
       <workItem from="1724224843531" duration="15961000" />
       <workItem from="1724381203396" duration="5250000" />
-      <workItem from="1724397922702" duration="14043000" />
+      <workItem from="1724397922702" duration="14687000" />
     </task>
     <servers />
   </component>

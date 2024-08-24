@@ -9,7 +9,7 @@ spring:
         git:
           uri: git@github.com:Xycongbro/cloud2020.git
           search-paths:
-            - springcloud-config
+            - cloud2020
           default-label: main
 eureka:
   client:
